@@ -13,10 +13,8 @@ function timer(){
 function theme(){
     if(document.body.classList == ('dark')){
         document.body.classList.remove('dark')
-        timer();
-
     }else{
         document.body.classList.add('dark')
-        timer();
     }
+    timer();
 }
